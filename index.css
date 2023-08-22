@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@300;400;500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+
+header h1 {
+    font-family: 'Boogaloo', sans-serif;
+    margin:0;
+    font-size:120px;
+    padding:20px;
+    text-align:center;
+    color:#FFFBFE;
+    font-weight:400;    
+
+}
+header { 
+    margin:0px;
+    /*box-shadow: 0 3px 2px -2px black;*/
+}
+body {
+    margin:0;
+    height:100%;
+    padding:0px;
+    background-color: #233D4D;
+}
+
+.container {
+    width:60%;
+    margin:auto;
+    margin-top:40px;
+    background-color:#FE7F2D;
+    border-radius:20px;
+}
+h2 {
+    padding:20px;
+    border-bottom:2px solid #233D4D;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+}
+
+.answers {
+    padding-bottom:20px;
+}
+.choice-container {
+    display:flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+.choice-container p {
+    padding:5px;
+
+}
+.choice-prefix {
+    background-color:rgba(255,255,255, .5);
+    border-radius:2px;
+    margin-left:5px;
+}
+.choice-text {
+    width:90%;
+}
+.border {
+    height:1px;
+    width:100%;
+    background-color: #233D4D;
+}
+
+.correct {
+    background-color:green;
+}
+.incorrect {
+    background-color:red;
+}
+
+#hud {
+    width:60%;
+    display:flex;
+    margin:auto;
+    padding-top:40px;
+    justify-content:space-between;
+}
+#hud h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:30px;
+    font-weight:500;
+    color:#FFFBFE;
+}
+#hud p {
+    font-family: 'Ubuntu', sans-serif;
+    color:#FFFBFE;
+    font-size:40px;
+    margin:0px;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is 2+2",
+        "choice1":"4",
+        "choice2":"6",
+        "choice3":"9",
+        "choice4":"2",
+        "answer":1
+    },
+    {
+        "question": "What is 4+2",
+        "choice1":"2",
+        "choice2":"6",
+        "choice3":"11",
+        "choice4":"5",
+        "answer":2
+    },
+    {
+        "question": "What is 5-2",
+        "choice1":"1",
+        "choice2":"7",
+        "choice3":"3",
+        "choice4":"4",
+        "answer":3
+    }
+]
